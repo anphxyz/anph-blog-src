@@ -3,7 +3,7 @@ title: 'Design Pattern: Singleton Pattern'
 date: 2018-05-08 15:04:57
 tags:
 ---
-Improved from module pattern :D
+Improved from [module pattern](/2018/05/08/design-pattern-module-pattern/) :D
 ### Code
 ``` JS
 const anph = (function () {

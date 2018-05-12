@@ -2,6 +2,15 @@
 title: Anph about
 date: 2018-03-22 13:37:39
 ---
+
+# Not blogs, just notes
+
+# Contact
+### [aanltll2992@gmail.com](aanltll2992@gmail.com)
+### [github.com/anph29](https://github.com/anph29)
+### [fb.com/anph29](https://fb.com/anph29)
+
+# &lt;input type="hidden" value="`Je suis mon ennemi`" /&gt;
 <pre style="font: 4px/2px monospace;color:#33BC8C;overflow:hidden;border:none">
 
 
@@ -77,13 +86,3 @@ date: 2018-03-22 13:37:39
 
 
 </pre>
-
-# Site content
-### Tip + trick from: reseach + personal experience
-
-# Contact
-### [aanltll2992@gmail.com](aanltll2992@gmail.com)
-### [github.com/anph29](https://github.com/anph29)
-### [fb.com/anph29](https://fb.com/anph29)
-
-# Je suis mon ennemi
