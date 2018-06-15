@@ -4,14 +4,14 @@ date: 2018-05-08 11:18:32
 tags:
 ---
 ### TABLE NAME
-  [1 character][3 number]
+  [1 character][3 number]{x}
 
 ### DESCRIPTION
   :CTB: -> Character Table Name (*)
 
 ### FIELD NAME 
 1. Primary key:   
-    + `[P][:CTB:][3 number]`
+    + `[P][:CTB:][3 number]` same `[3 number]`{x}
 2. Foreign key:   
     + `[F][:CTB:][3 number]`
 3. Varchar field: 

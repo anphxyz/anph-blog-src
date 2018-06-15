@@ -26,6 +26,9 @@ function formObj2Json(formArray) { //serialize data function
     returnArray[formArray[i].name] = formArray[i].value;
   return returnArray;
 }
+//ES6
+var formObj2Json = formArray => formArray.map(elem => {return {[elem.name]: elem.value}})
+
 ```
 
 ``` HTML
@@ -152,4 +155,6 @@ function formObj2Json(formArray) { //serialize data function
 
 ### Output
 
-[Create JSON form form input](http://output.jsbin.com/daraxeqesi)
+[Create JSON form form input](http://jsbin.com/daraxeqesi/1/edit?html,js,output)
+
+[Create JSON form form input ES6](http://jsbin.com/noxedof/edit?js,console,output)

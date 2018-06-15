@@ -5,13 +5,16 @@ date: 2018-03-22 13:37:39
 
 # Not blogs, just notes
 
+* ## Imperative programming: telling the “machine” __HOW__ to do something, and as a result __WHAT__ you want to happen will happen.
+* ## Declarative programming: telling the “machine” __WHAT__ you would like to happen, and let the computer figure out __HOW__ to do it.
+
 # Contact
 ### [aanltll2992@gmail.com](aanltll2992@gmail.com)
 ### [github.com/anph29](https://github.com/anph29)
 ### [fb.com/anph29](https://fb.com/anph29)
 
 # &lt;input type="hidden" value="`Je suis mon ennemi`" /&gt;
-<pre style="font: 4px/2px monospace;color:#33BC8C;overflow:hidden;border:none">
+<pre style="font: 6px/2px monospace;overflow:hidden;border:none">
 
 
 

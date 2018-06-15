@@ -49,3 +49,7 @@ getVal = get('val'),
 keyArray = arr.map(getKey),//[1, 2, 3, 4]
 valArray = arr.map(getVal);//["a", "b", "c", "d"]
 ```
+
+
+
+
