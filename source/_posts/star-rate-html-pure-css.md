@@ -68,17 +68,17 @@ If want to passive load we need push `disabled` attribute to all `input[type="te
 
 ``` JS
 function calcRate(r) {
-  var t = 5 === a ? star5 :
-    r >= 4.5 ? star4half :
-      r >= 4 ? star4 :
-        r >= 3.5 ? star3half :
-          r >= 3 ? star3 :
-            r >= 2.5 ? star2half :
-              r >= 2 ? star2 : 
-                r >= 1.5 ? star1half :
-                  r >= 1 ? star1 :
-                    r >= .5 ? starhalf :
-                      null;
+  var t = 5 === a ? star5 
+    : r >= 4.5 ? star4half 
+      : r >= 4 ? star4 
+        : r >= 3.5 ? star3half 
+          : r >= 3 ? star3 
+            : r >= 2.5 ? star2half 
+              : r >= 2 ? star2  
+                : r >= 1.5 ? star1half 
+                  : r >= 1 ? star1 
+                    : r >= .5 ? starhalf 
+                      : null;
   t && (t.checked = !0)
 }
 ```

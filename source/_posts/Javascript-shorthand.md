@@ -3,42 +3,46 @@ title: Javascript shorthand
 date: 2018-05-08 13:47:49
 tags:
 ---
+
 ## 1. Play with `.bind()`
+
 ``` JS
 // document.querySelector
-let $ = document.querySelector.bind(document);
+const $ = document.querySelector.bind(document);
 // 1. Usage
-let ele1 = $("#id1");
-let ele2 = $(".class2");
-let ele3 = $("div.user-panel.main input[name='login']");
+const ele1 = $("#id1");
+const ele2 = $(".class2");
+const ele3 = $("div.user-panel.main input[name='login']");
 
 // 2. console.log
-let log = console.log.bind(document);
+const log = console.log.bind(document);
 log('hello'); // -> hello
 ```
 
 ## 2. Clone object, array
+
 a. Object
 ``` JS
 // shallow clone an object 
-let newObj = Object.assign({}, obj);
+const newObj = Object.assign({}, obj);
 ```
 or
 ``` JS
 // deep clone an object
-let newObj = JSON.parse(JSON.stringify(obj));
+const newObj = JSON.parse(JSON.stringify(obj));
 ```
 b. Array
 ``` JS
-  let a = [1, 2, 3];
-  let b = a.slice();
+  const a = [1, 2, 3];
+  const b = a.slice();
   console.log(b);       // -> [1, 2, 3]
   console.log(b === a); // -> false
 ```
+
 ## 3. Swap value
 
 ``` JS
-let x = 1, y = 2;
+const x = 1, y = 2;
 console.log(x, y); // 1, 2
 
 [x, y] = [y, x];
@@ -46,45 +50,51 @@ console.log(x, y); // 2, 1
 ```
 
 ## 4. Random with range
+
 ``` JS
-let random = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+const random = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
  
 // Usage
-let a = random(1, 100);
+const a = random(1, 100);
 ```
+
 ## 5. `trim()` DIY
+
 ``` JS
 function trim(x) {
   return x.replace(/^\s+|\s+$/gm,'');
 }
  
-let str = "       Hello World!        ";
+const str = "       Hello World!        ";
 console.log(str)         // ->        Hello World!        
 console.log(trim(str));  // -> Hello World!
 ```
+
 ## 6. Cast `arguments` to `Array`
+
 ``` JS
-let args = Array.prototype.slice.call(arguments);
-let args = [].slice.call(arguments);
+const args = Array.prototype.slice.call(arguments);
+const args = [].slice.call(arguments);
  
 // ES2015
-let args = Array.from(arguments);
+const args = Array.from(arguments);
 ```
 
 ## 7. Max, min in array
+
 ``` JS
-let numbers = [1, 8 , 10 , -125 , 28 , 100 , 215, -85]; 
-let maxInNumbers = Math.max.apply(Math, numbers); 
-let minInNumbers = Math.min.apply(Math, numbers);
+const numbers = [1, 8 , 10 , -125 , 28 , 100 , 215, -85]; 
+const maxInNumbers = Math.max.apply(Math, numbers); 
+const minInNumbers = Math.min.apply(Math, numbers);
 
 console.log(maxInNumbers, minInNumbers);
 // -> 215 -125
 ```
 
 ## 8. Reset Array
-``` JS
-let a = [1, 2, 3];
 
+``` JS
+const a = [1, 2, 3];
 //a = [];//not this
 a.length = 0;//use this
 console.log(a); // -> []
@@ -94,9 +104,8 @@ console.log(a); // -> []
 
 a. Wrong way
 ```JS
-let arr = ["a", 1, -5, "cde"];
+const arr = ["a", 1, -5, "cde"];
 console.log(arr);        // -> ["a", 1, -5, "cde"]
- 
 delete arr[2];
 console.log(arr);        // -> ["a", 1, undefined, "cde"]
 console.log(arr.length); // -> 4
@@ -105,14 +114,13 @@ b. Right way
 ```JS
 let arr = ["a", 1, -5, "cde"];
 console.log(arr);        // -> ["a", 1, -5, "cde"]
- 
 arr.splice(2, 1);
 console.log(arr);        // -> ["a", 1, "cde"]
 console.log(arr.length); // -> 3
 ```
 
-
 ## 10. Use `&&` or `||` instead of `if` and `if else`
+
 a. `if`
 ``` JS
 let a = 10;
@@ -138,14 +146,29 @@ a === 5 && console.log("a === 5") || console.log("a !== 5");
 ```
 
 ## 11. Loop object
+
+(*) Use this way really effective when object is 1 level object
+1. use `for..in`
 ``` JS
+const object = {...};
 for (let name in object) {  
     if (object.hasOwnProperty(name)) { 
         // do something with name                    
     }  
 }
 ```
+
+2. use `array prototype function` (map, forEach..)
+
+``` JS
+  const object = {...};
+  Object.key(object).forEach(key=>{
+        // do something with key                    
+  })
+```
+
 ## 12. Clone object and array use Spread
+
   a. Clone object:
   ``` JS
   let obj = {a: 1, b: 2};
@@ -158,7 +181,9 @@ for (let name in object) {
   let arr2 = [...arr];
   console.log(arr2); // => [1, 2];
   ```
+
 ## 13. Join Array
+
 ``` JS
 let one = ['a', 'b', 'c']
 let two = ['d', 'e', 'f']
@@ -179,7 +204,9 @@ const result3 = [...one, ...two, ...three];
 console.log(result3);
 // -> ["a", "b", "c", "d", "e", "f", "g", "h", "i"]
 ```
+
 ## 14. Set key from variable
+
 ``` JS
 let myKey = 'key3';
 let obj = {
@@ -201,6 +228,7 @@ console.log(obj); // -> {key1: "One", key2: "Two", key3: "Three"}
 ```
 
 ## 15. Cast value
+
 ``` JS
 if (variable1 !== null || variable1 !== undefined || variable1 !== '') {
      let variable2 = variable1;
@@ -210,7 +238,9 @@ if (variable1 !== null || variable1 !== undefined || variable1 !== '') {
 ``` JS
 const variable2 = variable1  || 'new';
 ```
+
 ## 16. Object Property
+
 ``` JS
 const obj = { x:x, y:y };
 ```
@@ -220,6 +250,7 @@ const obj = { x, y };
 ```
 
 ## 17. Method
+
 ``` JS
 var obj = {
   foo: function() {
@@ -243,6 +274,7 @@ var obj = {
 ```
 
 ## 18. Parse Int (*) be careful
+
 ``` JS
 let a = '123', b = '123a';
 // Normal
@@ -252,7 +284,9 @@ console.log(parseInt(a), parseInt(b));//-> 123 123
 console.log(+a, +b);//-> 123 NaN
 
 ```
+
 ## 19. Verify variable (cast to boolean)
+
 6 fasly value: `false, null, 0, '', undefined, NaN` will cast to `false` else cast to `true`
 ``` JS
 if(typeof a !== 'undefined' && a !== null){
@@ -265,66 +299,88 @@ if(!!a){
 
 }
 ```
+
 ## 20. Rest và spread
 
-Rest – phần còn lại – là một bổ sung của phân rã biến mảng ở trên. Bạn dùng ba dấu chấm ... để biểu thị rest.
+a. Rest: represents the rest: [phần còn lại] of `function`, `array` or `object` with variable name
 ``` JS
 const [first, second, ...others] = [1, 2, 3, 4, 5]
-
 console.log(first, second, others)
-// 1
-// 2
-// [3, 4, 5]
+// 1 2 [3, 4, 5]
 ```
 
-Rest cũng được dùng khi khai báo hàm có thể nhận nhiều tham số
+We can use rest to define a function flexible like bellow:
 ``` JS
 const foo = (...args) => console.log('You passed', args)
 console.log(foo(1, 2, 3)) // You passed[ 1, 2, 3 ]
 const bar = (x, y, ...rest) => console.log(rest, x, y)
 ```
-Bạn lưu ý biến args ở trên khác với biến đặc biệt arguments vốn có sẵn bên trong hàm. `arguments` là một đối tượng giống Array, với những thuộc tính đặc biệt như `callee`, trong khi `args` chỉ là một mảng bình thường.
+(*) `args` difference to `arguments`:
+  `args` is normal array
+  `arguments` is default in a function, an object like `Array`
 
-Spread – rải – là thao tác ngược lại với rest, giúp bạn kết hợp một mảng đã có sẵn thành mảng mới.
+b. Spread: represents the `object` or array `available` with variable name
+ * replace `.concat()`
 ``` JS
 const arr = [3, 4, 5]
 const newArr = [1, 2, ...arr, 6]
 console.log(newArr) // [1, 2, 3, 4, 5, 6]
-Spread rất hữu ích để thay thế các thao tác thên mảng, như .concat().
 
 const head = [1, 2]
 const tail = [3, 4, 5]
 console.log([...head, ...tail]) // [1, 2, 3, 4, 5]
-Spread cũng rất ngon khi thay thế cho Function.prototype.apply.
-
+```
+ * replace `.apply()`
+``` JS
 const mul = (x, y, z) => x * y * z
 const params = [1, 2, 3]
-
-// Thay thế cho
 // mul.prototype.apply(null, params)
 mul(...params)
 ```
-
-Rest/spread cũng có thể hoạt động trên object, tương tự như `Object.assign()`, nhưng bạn lưu ý tính năng vẫn đang được đề xuất (proposal). Về phía trình duyệt, có Firefox và Chrome là hỗ trợ, trong khi Edge và Safari hoàn toàn không hoạt động.
+ * replace `.asign()`
 ```JS
 const user = { name: 'John' }
-
 // ES5
 const userWithAgeEs5 = Object.assign({}, user, { age: 21 })
-
-// Thời đại mới với spread
+// With spread
 const userWithAge = { ...user, age: 21 }
 console.log(userWithAge) // { name: 'John', age: 21 }
 
-// Và rest
+// bonus rest detruct
 const { name, ...others } = userWithAge
 console.log(others) // { age: 21 }
 ```
 
 ## 21. Create & set key by variable
+
 ``` JS
 const attr = 'foo'
 const year = 2017
 const obj = { [attr]: 1, ['now' + year]: 'wow' }
 console.log(obj) // { foo: 1, now2017: 'wow' }
+```
+
+## 22. Deduplicated item in array
+
+``` JS
+const a = ['red', 'blue', 'sweet', 'red', 'you']
+const b = [...new Set(a)]
+console.log(b) // [ 'red', 'blue', 'sweet', 'you' ]
+```
+
+## 23. Number to character
+
+``` JS
+console.log('0123456789'.split('').map(no => String.fromCharCode(65 + +no)))//["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
+
+console.log('0123456789'.split('').map(no => String.fromCharCode(97 + +no)))//["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"]
+```
+
+## 24. Fast way Math.floor
+
+``` JS
+//similar way
+const _a = Math.floor(10 / 3);//3
+//fast way
+const _b = ~~(10 / 3);//3
 ```

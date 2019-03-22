@@ -12,7 +12,6 @@ function selectionSort(array){
    for(let j = i + 1; j < array.length; j++){
      if(array[j] < array[idmin]) idmin = j;
    }
-
    // swap
    let t = array[i];
    array[i] = array[idmin];
