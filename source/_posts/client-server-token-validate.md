@@ -1,7 +1,8 @@
 ---
 title: client - server token validate
 date: 2018-05-29 10:23:02
-tags:
+tags: algorithm
+category: algorithm
 ---
 ## Diagram
 

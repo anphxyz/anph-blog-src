@@ -1,7 +1,8 @@
 ---
 title: Create JSON data from Form input
 date: 2018-04-26 09:12:47
-tags:
+tags: html, javascript
+category: javascript
 ---
 ### Problem:
   * How can I create a javascript JSON (?) object based on two input fields per row, with 48 rows?

@@ -1,7 +1,8 @@
 ---
 title: 'Javascript: Horror things'
 date: 2018-06-21 15:20:21
-tags:
+tags: javascript
+category: javascript
 ---
 ## `==` horor 
 ``` JS

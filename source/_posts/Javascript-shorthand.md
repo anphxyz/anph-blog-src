@@ -1,7 +1,8 @@
 ---
 title: Javascript shorthand
 date: 2018-05-08 13:47:49
-tags:
+tags: javascript
+category: javascript
 ---
 
 ## 1. Play with `.bind()`

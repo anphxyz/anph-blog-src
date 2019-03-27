@@ -1,7 +1,8 @@
 ---
 title: 'Design Pattern: Singleton Pattern'
 date: 2018-05-08 15:04:57
-tags:
+tags: javascript
+category: javascript
 ---
 Improved from [module pattern](/2018/05/08/design-pattern-module-pattern/) :D
 ### Code

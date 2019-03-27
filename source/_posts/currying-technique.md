@@ -1,7 +1,8 @@
 ---
 title: Currying Technique
 date: 2018-05-10 14:31:32
-tags:
+tags: javascript
+category: javascript
 ---
 
 ## THEORY CONCEPT

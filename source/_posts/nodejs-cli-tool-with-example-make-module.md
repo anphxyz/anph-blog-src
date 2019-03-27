@@ -1,7 +1,8 @@
 ---
 title: nodeJS CLI tool with example Make Module
 date: 2018-05-17 09:45:51
-tags:
+tags: nodejs
+category: nodejs
 ---
 
 ## TECHNIQUE

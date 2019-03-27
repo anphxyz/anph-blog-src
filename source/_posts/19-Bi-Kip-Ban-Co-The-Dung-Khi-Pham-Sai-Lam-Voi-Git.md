@@ -1,7 +1,8 @@
 ---
 title: 19 Bí Kíp Bạn Có Thể Dùng Khi Phạm Sai Lầm Với Git
 date: 2019-01-03 17:34:58
-tags:
+tags: git
+category: git
 ---
 # 19 Bí Kíp Bạn Có Thể Dùng Khi Phạm Sai Lầm Với Git
 

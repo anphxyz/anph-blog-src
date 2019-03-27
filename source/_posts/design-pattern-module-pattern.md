@@ -1,7 +1,8 @@
 ---
 title: 'Design pattern: Module Pattern'
 date: 2018-05-08 10:58:17
-tags:
+tags: javascript
+category: javascript
 ---
 ### Code
 ```JS

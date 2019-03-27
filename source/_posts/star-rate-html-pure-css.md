@@ -1,7 +1,8 @@
 ---
 title: Star rate html + pure css
 date: 2018-03-26 11:35:05
-tags: html, css
+tags: javascript, html, css
+category: javascript
 ---
 ### HTML
 ``` html

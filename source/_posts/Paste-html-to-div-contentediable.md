@@ -1,7 +1,8 @@
 ---
 title: Paste html to div(contentediable)
 date: 2018-05-25 10:13:23
-tags:
+tags: javascript
+category: javascript
 ---
 ## HTML
 ``` html

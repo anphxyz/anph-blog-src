@@ -1,7 +1,8 @@
 ---
 title: Sort in Javascript - Professional Style
 date: 2018-05-09 16:52:32
-tags:
+tags: javascript
+category: javascript
 ---
 ## Selection Sort
  * Tiếng Việt: Sắp xếp chọn trực tiếp

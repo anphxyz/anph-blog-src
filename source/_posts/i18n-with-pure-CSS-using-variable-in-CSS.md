@@ -1,7 +1,8 @@
 ---
 title: i18n with pure CSS (using variable in CSS)
 date: 2018-05-09 10:52:19
-tags:
+tags: css
+category: css
 ---
 ## CONTEXT
   1. Pure CSS ready support using variable

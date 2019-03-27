@@ -1,7 +1,8 @@
 ---
 title: Make countdown timer
 date: 2018-06-06 11:33:47
-tags:
+tags: javascript
+category: javascript
 ---
 
 ## HTML

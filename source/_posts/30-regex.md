@@ -1,7 +1,8 @@
 ---
 title: 30 regex
 date: 2018-07-21 10:07:26
-tags:
+category: regex
+tags: regex
 ---
 ## Password Strength
 ``` JS

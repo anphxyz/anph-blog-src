@@ -1,7 +1,8 @@
 ---
 title: Đùa nghịch với Docker trong 5 phút
 date: 2019-01-03 17:34:40
-tags:
+tags: docker
+category: docker
 ---
 ![](/images/docker_logo.png)
 # Docker là gì?
@@ -59,7 +60,6 @@ RUN npm install
 # Copy app source code
 COPY . .
 # Expose port and start application
-```
 EXPOSE 3000
 CMD [ "npm", "start" ]
 ```
