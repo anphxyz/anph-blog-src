@@ -83,3 +83,6 @@ theme: cactus
 deploy:
     type: git
     repo: https://github.com/anph29/anph29.github.io.git
+
+disqus_shortname: https-anph29-github-io
+comments: true
