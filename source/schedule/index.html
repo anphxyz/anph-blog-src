@@ -1,0 +1,45 @@
+<div id="calendar_wrap">
+</div>
+<script>
+  window.onload = () => {
+    const century = y => Math.floor(y / 100);
+    // hàm tính tháng cho công thức zeller
+    const month = m => m < 3 ? m + 12 : m - 2
+    // hàm tính năm trong thể kỷ
+    const year = (m, y) => (y % 100) - (m < 3 ? 1 : 0)
+    // công thức zeller
+    const _zeller = (day, month, year, century) => ((13 * month + 1) / 5 + year / 4 + century / 4 + day + year - 2 * century) - 1 % 7;
+    const zeller = (d, m, y) => _zeller(d, month(m), year(m, y), century(y))
+    const isLeap = year => year % 4 || (year % 100 === 0 && year % 400) ? 0 : 1;
+    const daysIn = (month, year) => month === 2 ? (28 + isLeap(year)) : 31 - (month - 1) % 7 % 2;
+    const breakFollowWeek = arr => {
+      const len = arr.length,
+        rs = []
+      for (i = 0; i < len; i += 7) {
+        rs.push(`${pad(arr[i])} | ${pad(arr[i + 1])} | ${pad(arr[i + 2])} | ${pad(arr[i + 3])} | ${pad(arr[i + 4])} | ${pad(arr[i + 5])} | ${pad(arr[i + 6])}`)
+      }
+      return rs;
+    }
+    const calendar = (month, year) => {
+      console.log(zeller(1, month, year), month, year);
+
+      var startIndex = Math.trunc(zeller(1, month, year));
+      var endIndex = daysIn(month, year);
+      var result = Array.apply(0, Array(42)).map(_ => 0);
+
+      for (var i = startIndex; i < endIndex + startIndex; i++) {
+        result[i] = i - startIndex + 1;
+      }
+      return breakFollowWeek(result).join('\n--------------------------------\n');
+    }
+    const pad = n => (n < 10 ? '0' : '') + n
+
+    const date = new Date()
+    document.getElementById('calendar_wrap').innerHTML = `<pre>
+              ${pad(date.getMonth() + 1)}/${date.getFullYear()}
+SU | MO | TU | WE | TH | FR | SA | STA
+             ------
+${calendar(date.getMonth() + 1, date.getFullYear())}
+</pre>`
+  }
+</script>

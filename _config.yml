@@ -57,9 +57,11 @@ default_category: javascript
 category_map:
   javascript: javascript
   python: python
+  nocode: nocode
 tag_map:
   javascript: javascript
   python: python
+  nocode: nocode
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
