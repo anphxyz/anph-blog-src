@@ -4,6 +4,7 @@ date: 2018-05-09 10:52:19
 tags: css
 category: css
 ---
+
 ## CONTEXT
   1. Pure CSS ready support using variable
   2. I18N at client so quite complex
@@ -26,8 +27,10 @@ category: css
     <button id="change_lang"></button>
     <div class="wrapper">
       <form action="" id="login">
-        <div class="form-group"><label for="username"></label><input type="text" id="username"></div>
-        <div class="form-group"><label for="password"></label><input type="password" id="password"></div>
+        <div class="form-group"><label for="username"></label>
+        <input type="text" id="username"></div>
+        <div class="form-group"><label for="password"></label>
+        <input type="password" id="password"></div>
         <div class="form-group"><button type="submit"></button></div>
       </form>
     </div>
@@ -45,7 +48,7 @@ category: css
   ```
   3. CSS
   ``` CSS
-  :lang(en){
+   :lang(en){
     --username:'Username ';
     --pasword: 'Password ';
     --login: 'Login';
@@ -60,21 +63,23 @@ category: css
   }
 
   /*style to view*/
-  #change_lang{margin:0 0 5vh 12%;height:25px;border-radius:5px;display:inline-block;color:#00f}
+  *{font-family:monospace}
+  body{background:#444}
+  #change_lang{margin:0 0 5vh 12%;height:25px;border-radius:5px;display:inline-block;color:#fff;background:#333}
   .form-group{width:100%;padding:3px;display:inline-block}
-  .form-group>label{width:12%;display:inline-block}
-  .form-group>input{width:50%;display:inline-block;height:25px;border-radius:5px;box-shadow:none;border:1px solid #c1c1c1}
-  .form-group>button{margin:0 12%;height:25px;border-radius:5px;display:inline-block}
+  .form-group>label{width:100px;display:inline-block;color:#fff}
+  .form-group>input{width:150px;display:inline-block;height:25px;border-radius:5px;box-shadow:none;border:1px solid #c1c1c1}
+  .form-group>button{margin:0 100px;height:25px;border-radius:5px;display:inline-block;color:#fff;background:#333}
   /*style to view*/
 
-  #change_lang:after{  content:var(--lang)}
-  [for='username']:after{  content:var(--username)}
-  [for='password']:after{  content:var(--pasword)}
-  [type="submit"]:after{  content:var(--login)}
+  #change_lang:after{content:var(--lang)}
+  [for='username']:after{content:var(--username)}
+  [for='password']:after{content:var(--pasword)}
+  [type="submit"]:after{content:var(--login)}
   ```
 
   ## DEMO
 
-  [i18n with pure CSS](http://jsbin.com/qamojam)
+  [i18n with pure CSS](http://jsbin.com/qamojam/2)
 
   
