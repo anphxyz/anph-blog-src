@@ -1,9 +1,8 @@
 ---
-  title: 'CALL, APPLY & BIND'
-date: 2018 - 06 - 01 09: 53: 32
+title: CALL, APPLY & BIND
+date: 2018-06-01 09:53:32
 tags: javascript
 category: javascript
-
 ---
 ## CALL
 - engsub: Call invokes the function and allows you to pass in arguments one by one with comma.

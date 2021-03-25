@@ -1,8 +1,8 @@
 ---
 title: NHỮNG ĐIỀU MÀ TÔI ĐÃ HỌC ĐƯỢC TỪ ĐÀN BÀ VÀ NHỮNG MỐI QUAN HỆ (What I learned about women and relationships)
 date: 2018-05-29 10:23:02
-tags: algorithm
-category: algorithm
+tags: nocode
+category: nocode
 ---
 
 Làm chủ mối quan hệ với đàn bà chưa bao giờ là điều dễ dàng đối với đàn ông. Người ta nói rằng đàn
@@ -44,9 +44,7 @@ __*Và đàn bà nghĩ về đàn ông như cách họ nghĩ về bản thân m�
 
 ## SUY NGHĨ CỦA ĐÀN BÀ LÀ ‘’ĐƯỜNG TRÒN’’, SUY NGHĨ CỦA ĐÀN ÔNG LÀ ‘’ĐƯỜNG THẲNG’’.
 
-Logic của đàn ông mang tính suy diễn. Còn nhớ Sherlock Holmes chứ? Đó là cách đàn ông suy nghĩ đấy.
-Một đường thẳng. Thứ gọi là lập luận logic (logical chain) mà tôi có nói ở trên.
-Nếu A=B, và B=C, thì A=C. Vô cùng đơn giản và dễ hiểu. Một đường thẳng.
+__*Logic của đàn ông mang tính suy diễn. Còn nhớ Sherlock Holmes chứ? Đó là cách đàn ông suy nghĩ đấy. Một đường thẳng. Thứ gọi là lập luận logic (logical chain) mà tôi có nói ở trên.Nếu A=B, và B=C, thì A=C. Vô cùng đơn giản và dễ hiểu. Một đường thẳng.*__
 
 Sử dụng thứ logic này, một người đàn ông có thể tạo nên những khái niệm phức tạp dưới sự chỉ dẫn của
 “Nguyên tắc tư duy đầu tiên” (First principles of thinking – Khi tra cụm từ tiếng anh này trên google, bạn
@@ -54,29 +52,25 @@ sẽ thấy nó hay đi kèm cùng tên của Elon Musk). Họ chỉ tin vào m�
 đó bằng thực nghiệm. Họ không tin ý kiến của ai đó trừ khi người đó là một chuyên gia đáng tin tưởng.
 Họ tin vào khoa học và sử dụng những phương pháp mang tính khoa học.
 
-Logic của đàn bà mang tính quy nạp. Đàn bà suy nghĩ theo một vòng tròn – vòng tròn của sự liên tưởng.
+__*Logic của đàn bà mang tính quy nạp. Đàn bà suy nghĩ theo một vòng tròn – vòng tròn của sự liên tưởng.*__
+
 Một thứ bí ẩn đối với đàn ông. Đây là một bức hình đơn giản để minh họa:
 [](/1.jpg)
-3
 
-Người đàn bà sẽ nhìn vào một khái niệm/ sự việc và lôi ra cả một mạng lưới ngữ nghĩa (semantic
-network, hay có tên khác là frame network) liên quan đến nó, bao gồm cả những class và sub-class, cũng
-như những khái niệm liên quan (được minh họa bằng những ô màu xanh lá trong vòng tròn nhỏ nhất)
-Người đàn bà sẽ chọn một khái niệm (thường là trường hợp xấu nhất) trong mạng lưới trên (khái niệm
-1) và vẽ lên một vòng tròn của sự liên tưởng khác quanh nó. Quá trình này sẽ được lặp lại (khái niệm 2)
-và lặp lại nữa (khái niệm 3), dẫn đến việc cô ta có được kết luận cho mình qua lối tư duy logic mà không
-một người đàn ông nào biết được.
-Ví dụ: Giả sử bạn mua và đem về nhà một củ khoai tây rất nhỏ - Cô ấy cảm thấy bực mình vì kích thước
+- Người đàn bà sẽ nhìn vào một khái niệm/ sự việc và lôi ra cả một mạng lưới ngữ nghĩa (semantic network, hay có tên khác là frame network) liên quan đến nó, bao gồm cả những class và sub-class, cũng như những khái niệm liên quan (được minh họa bằng những ô màu xanh lá trong vòng tròn nhỏ nhất) Người đàn bà sẽ chọn một khái niệm (thường là trường hợp xấu nhất) trong mạng lưới trên (khái niệm và vẽ lên một vòng tròn của sự liên tưởng khác quanh nó. Quá trình này sẽ được lặp lại (khái niệm 2) và lặp lại nữa (khái niệm 3), dẫn đến việc cô ta có được kết luận cho mình qua lối tư duy logic mà không một người đàn ông nào biết được
+
+- Ví dụ: Giả sử bạn mua và đem về nhà một củ khoai tây rất nhỏ - Cô ấy cảm thấy bực mình vì kích thước
 của củ khoai đó. Nhưng cô ấy lại nói với bạn là: ‘’Anh muốn em phải suốt ngày rúc trong bếp à?!” và cuối
 cùng là pha chốt hạ: “Anh nghĩ em là nô lệ của anh à?!”
 Không phải là ví dụ hay nhất, nhưng tôi mong bạn sẽ hiểu trong những điều phụ nữ nói, có một sự logic
 nhất định.
-Đàn ông thường không nắm bắt được vấn đề khi rắc rối xảy ra. Họ thất bại trong việc nhìn thấy logic ẩn
-sau những thứ tưởng chừng như không liên quan. Trong não bộ người phụ nữ, chúng hoàn toàn có lý.
-Và đó là lí do tại sao:
-Đàn ông tranh luận bằng cơ sở lập luận, Còn đàn bà tranh luận bằng việc kết luận
-(Và đây là lí do tôi là người làm nội trợ ở nhà )
-ĐÀN BÀ THÌ BỐC ĐỒNG. ĐÀN ÔNG THÌ KIỀM CHẾ.
+
+- Đàn ông thường không nắm bắt được vấn đề khi rắc rối xảy ra. Họ thất bại trong việc nhìn thấy logic ẩn sau những thứ tưởng chừng như không liên quan. Trong não bộ người phụ nữ, chúng hoàn toàn có lý.
+- Và đó là lí do tại sao:
+__*Đàn ông tranh luận bằng cơ sở lập luận, Còn đàn bà tranh luận bằng việc kết luận*__
+
+## ĐÀN BÀ THÌ BỐC ĐỒNG. ĐÀN ÔNG THÌ KIỀM CHẾ.
+
 Sự bốc đồng, hấp tấp của đàn bà đến từ những phản ứng đầy tính cảm xúc của họ với những kích thích
 bên ngoài.
 Một người đàn bà có thể băn khoăn không biết nên mua chiếc túi nào: “Mình nên mua cái màu đỏ hay
@@ -94,10 +88,8 @@ làm rực sáng cuộc đời của chúng ta và tạo cho chúng ta động l
 Tôi cũng không có ý nói rằng 100% chị em phụ nữ đều không biết chi tiêu. Chỉ là đàn ông chúng tôi thật
 sự không tài nào hiểu nổi cái ưu tiên chi tiêu của chị em.
 
-4
+## ĐÀN BÀ THÍCH NÓI VỀ NHỮNG MỐI QUAN HỆ. ĐÀN ÔNG THÌ THÍCH NÓI VỀ NHỮNG Ý TƯỞNG.
 
-ĐÀN BÀ THÍCH NÓI VỀ NHỮNG MỐI QUAN HỆ. ĐÀN ÔNG THÌ THÍCH NÓI VỀ NHỮNG Ý
-TƯỞNG.
 Đàn ông và đàn bà hiếm khi tìm được tiếng nói chung trong những cuộc tranh luận. Đàn ông, ít nhất là
 những người đàn ông quanh tôi, thích nói về những ý tưởng. Họ nói về những khái niệm, điều gì mà thế
 giới này đã làm được và điều gì có thể được làm.
@@ -109,7 +101,9 @@ Làm mọi thứ cùng nhau, hãy vẽ ra một viễn cảnh tương lai điể
 Sau đó, hãy dùng chúng làm chủ đề để tranh luận.
 Đương nhiên, tránh những sự bất đồng là một chuyện bất khả thi, nhưng ít nhất thì kế hoạch về một
 cuộc sống bên nhau hạnh phúc sẽ là thứ mà cả đàn ông và đàn bà đều cảm thấy hứng thú.
-ĐÀN BÀ KHÔNG YÊU NHỮNG CHÀNG SIÊU ANH HÙNG. HỌ YÊU NGƯỜI CHĂM SÓC HỌ.
+
+## ĐÀN BÀ KHÔNG YÊU NHỮNG CHÀNG SIÊU ANH HÙNG. HỌ YÊU NGƯỜI CHĂM SÓC HỌ.
+
 Tôi từng nghĩ rằng đàn bà thích những người đàn ông nóng bỏng, hoặc những người đàn ông giàu có,
 hoặc cả hai. Rõ ràng tiền bạc và ngoại hình rất quan trọng, nhưng tôi nhận ra là trên thực tế, điều quan
 trọng nhất đối với một người đàn bà là tìm thấy được một người đàn ông quan tâm đến cô ấy.
@@ -118,7 +112,9 @@ Một người đàn ông có thái độ chân thành và biết chăm sóc ph�
 tấm lòng.
 Tôi đã học được từ những mối quan hệ của chính tôi và những mối quan hệ của người khác rằng, phụ
 nữ có thể tha thứ cho tất cả những điểm họ còn chưa vừa lòng ở đàn ông chỉ với điều này.
-ĐÀN BÀ CÓ THỂ TẬP TRUNG VÀO NHIỀU THỨ MỘT LÚC, CÒN ĐÀN ÔNG THÌ KHÔNG.
+
+## ĐÀN BÀ CÓ THỂ TẬP TRUNG VÀO NHIỀU THỨ MỘT LÚC, CÒN ĐÀN ÔNG THÌ KHÔNG.
+
 Đàn ông là những kẻ săn mồi. Mẹ thiên nhiên đã thiết kế chúng ta theo cách mà làm cho chúng ta chỉ
 tập trung vào một thứ tại một thời điểm. Tầm nhìn và khả năng tập trung của chúng ta như một đường
 hầm vậy. Nếu vợ chúng ta muốn hỏi chúng ta gì đó trong bữa tối, cô ấy phải tắt cái TV trước đã.
@@ -131,8 +127,8 @@ tập. Không một người đàn ông nào có thể đạt được hiểu su
 Hiểu được sự khác biệt này vô cùng quan trọng, bởi vì nó là nền tảng để xây dựng được mối quan hệ với
 người khác giới.
 
-5
-ĐÀN BÀ CẦN SỰ CHÚ Ý. ĐÀN ÔNG CẦN KHÔNG GIAN.
+## ĐÀN BÀ CẦN SỰ CHÚ Ý. ĐÀN ÔNG CẦN KHÔNG GIAN.
+
 Có những điều mà đàn bà cần phải hiểu về đàn ông
 Đàn ông có những sứ mệnh riêng của họ. Họ phải chiến đấu trong trận chiến riêng của mình. Họ có
 những con quỷ để đánh bại, những con rồng để thu phục.
@@ -145,7 +141,9 @@ không gian riêng tư của đàn ông, những khoảnh khắc họ cô lập 
 vào những nỗ lực để đạt được mục tiêu của họ.
 Ngược lại, một người đàn ông cần dành một khoảng thời gian riêng dành trọn cho người đàn bà của đời
 mình cũng như gia đình bé nhỏ của anh ta và không để bị những điều khác làm cho sao nhãng.
-ĐÀN ÔNG THÌ ĐƠN GIẢN. ĐÀN BÀ THÌ PHỨC TẠP.
+
+## ĐÀN ÔNG THÌ ĐƠN GIẢN. ĐÀN BÀ THÌ PHỨC TẠP.
+
 Đàn ông là những người đơn giản. Không đùa đâu, bạn có thể làm một người đàn ông hạnh phúc chỉ
 với làm 3 điều: Cho anh ta thời gian và không gian để kiếm tiền bạc, của cải bằng cách làm những việc
 anh ta thích, đảm bảo dạ dày của anh ta luôn căng phồng và để anh ta “lấp đây khoảng trống” trong bạn.
@@ -154,8 +152,6 @@ níu đàn ông trong mối quan hệ.
 Đàn bà thì phức tạp vãi cả ***. Đã bao nhiêu lần bạn gặp phải trường hợp cô ấy nói: “Em muốn cái ấy.
 Nhưng em cũng không biết cái ấy là cái gì”?
 Khi nghe câu đó, chắc mặt ông nào cũng chẳng khác gì mặt Thành Long trong cái ảnh này:
-
-6
 
 Quá nhiều điều đàn ông phải làm để chiều lòng các chị em. Tôi cũng chẳng dám đào sâu đâu.
 Tôi sẽ chỉ nêu ra những điều quan trọng nhất.
@@ -192,8 +188,6 @@ Hãy nhớ rằng: Đàn ông sẽ ngại ngần làm điều gì đó nếu b�
 nó không còn là một món quà nữa, mà là một mệnh lệnh. Sự khác biệt giữa “Anh muốn làm điều gì đó
 cho em” và “Anh nợ em điều gì đó” là cực kì lớn và nó dẫn đến những kết cục khác nhau. Nếu bạn
 
-7
-
 muốn điều gì đó, hãy nhắc thoáng qua về nó và anh ấy sẽ làm bạn bất ngờ. Nếu anh ấy không làm thế.
 Thì anh ấy không phải là người đàn ông của đời bạn. Hãy đọc lại lưu ý!
 Tìm kiếm một người giúp đỡ bạn.
@@ -228,8 +222,6 @@ Tình yêu.
 Từ này bị lạm dụng quá nhiều.
 Người ta mong đợi quá nhiều từ tình yêu. Có quá nhiều định nghĩa về tình yêu bởi những con người
 trên hành tinh này biến nó thành một điều hết sức trừu tượng.
-
-8
 
 Những thứ trừu tượng thật xa vời, chúng chẳng cho tôi biết tôi cần làm gì. Chúng chẳng dạy tôi làm
 thế nào để duy trì mối quan hệ.
